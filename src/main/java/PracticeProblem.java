@@ -15,7 +15,7 @@ public class PracticeProblem {
 	public static void main(String args[]) {
 
 	}
-	public static String triangle(int num){
+public static String triangle(int num){
 	    String triangle = "";
 	    for (int loopCount = 0; loopCount < num; loopCount++){
 	        for (int triangleCount = 0; triangleCount <= loopCount; triangleCount++){
@@ -35,7 +35,7 @@ public class PracticeProblem {
 	        spaces = "";
 	        stars += " *";
 	        for (spaceCount = 1; spaceCount < (num - loopCount); spaceCount++){
-	            spaces = spaces + "1";
+	            spaces = spaces + " ";
 	        }
 	        pyramid += spaces + stars.trim() + "\n";
 	    }
@@ -44,11 +44,12 @@ public class PracticeProblem {
 	
 	public static String multiplicationTable(int num){
 	    String output = "";
+	    String row = "";
 	    for (int loopCount = 1; loopCount <= num; loopCount++){
 	        for (int multi = 1; multi <= num; multi++){
-	            output += multi*loopCount;
+	            row += " " + multi*loopCount;
 	        }
-	        output += "\n";
+	        output += row.trim() + "\n";
 	    }
 	    
 	    return output;
