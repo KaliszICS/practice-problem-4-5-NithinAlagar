@@ -42,12 +42,14 @@ public static String triangle(int num){
 	    return pyramid;
 	}
 	
-	public static String multiplicationTable(int num){
+public static String multiplicationTable(int num){
 	    String output = "";
 	    String row = "";
 	    for (int loopCount = 1; loopCount <= num; loopCount++){
+	        row = "";
 	        for (int multi = 1; multi <= num; multi++){
 	            row += " " + multi*loopCount;
+	            
 	        }
 	        output += row.trim() + "\n";
 	    }
