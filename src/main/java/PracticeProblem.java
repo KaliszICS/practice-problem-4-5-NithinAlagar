@@ -1,3 +1,15 @@
+/**
+
+        * File: Lesson 4.5 - counts, accumulators, and nesting
+
+        * Author: Nithin.A
+
+        * Date Created: april 14, 2026
+
+        * Date Last Modified: April 20, 2026
+
+        */
+
 public class PracticeProblem {
 
 	public static void main(String args[]) {
